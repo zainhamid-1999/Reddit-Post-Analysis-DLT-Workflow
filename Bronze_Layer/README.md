@@ -6,6 +6,9 @@ The **Bronze Layer** serves as the raw data ingestion layer in the Delta Lake pi
 ## Data Ingestion
 Data is ingested from external sources (e.g., Reddit posts) using APIs, and the raw records are stored as Delta tables in the **Bronze Layer**. This layer contains the most granular level of data and includes fields like post ID, title, author, score, creation timestamp, etc.
 
+![Screenshot 2024-12-01 175100](https://github.com/user-attachments/assets/703b5aec-3619-4060-afa5-9868a3971609)
+
+
 ## Structure
 - **Data Format**: Delta format (optimized for ACID transactions and scalability)
 - **Location**: `/mnt/big_data_analytics_v/big_data_analytics_sesssion_v/volume_reddit/bronze_layer`
