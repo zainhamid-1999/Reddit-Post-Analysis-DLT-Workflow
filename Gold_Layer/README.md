@@ -1,6 +1,4 @@
-# Reddit Sentiment & Emotion Analysis with TF-IDF
-
-## Overview
+## Gold Layer
 This project processes Reddit posts, analyzing their sentiment and emotion using Apache Spark. It involves the following steps:
 
 1. **Sentiment & Emotion Analysis**: The sentiment (polarity) of the title and description of Reddit posts is analyzed using the `TextBlob` library. Based on the sentiment score, emotions (Positive, Negative, or Neutral) are assigned to each post.
